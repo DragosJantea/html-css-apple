@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* 
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: BlinkMacSystemFont, sans-serif;
+  color: black;
+}
+
+.header {
+  max-width: 100%;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(29, 29, 31, 0.88);
+  color: rgba(245, 245, 247, 0.699);
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+  list-style: none;
+  gap: 8rem;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 91rem; */
+  gap: 8rem;
+}
+
+.header-nav-link:link,
+.header-nav-link:link,
+.header-nav-link:visited {
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: rgba(245, 245, 247, 0.699);
+  transition: all 0.3s;
+}
+
+.header-nav-link:hover,
+.header-nav-link:active {
+  color: rgb(255, 255, 255);
+}
+
+.header-icon:link,
+.header-icon:visited {
+  font-size: 1.8rem;
+}
+
+/* ************************************** */
+/* UNICEF */
+
+.unicef-logo {
+  height: 3.2rem;
+  width: 12.2rem;
+
+  filter: brightness(0);
+  justify-self: end;
+}
+
+.section-unicef {
+  margin-top: 4.4rem;
+  width: 100%;
+}
+
+.div-unicef {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: rgb(245, 245, 247);
+
+  gap: 1.6rem;
+}
+
+.unicef-link:link,
+.unicef-link:visited {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  font-size: 1.4rem;
+  align-self: center;
+  transition: all 0.3s;
+}
+
+.unicef-link:hover,
+.unicef-link:active {
+  border-bottom: 1px solid currentColor;
+}
+
+/* ************************************** */
+
+.section-macbookair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 6.4rem;
+}
+.air-title {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: rgb(29, 29, 31);
+}
+.second-line {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.air-subtitle {
+  margin-left: 3rem;
+  color: rgb(29, 29, 31);
+  font-size: 2rem;
+}
+.m2 {
+  height: 4rem;
+  width: 4rem;
+}
+.air-link {
+}
+
+.air-link:link,
+.air-link:visited {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  font-size: 1.4rem;
+  align-self: center;
+  transition: all 0.3s;
+}
+.air-link:hover,
+.air-link:active {
+  border-bottom: 1px solid currentColor;
+}
+
+.air-img {
+}
+
+/* ************************************** */
+
+.section-products {
+  padding: 0 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.gridd {
+  gap: 1.6rem;
+}
+
+.grid-item--1 {
+  background-color: black;
+}
+/* 
+.grid-item--2 {
+  background-color: rgb(245, 245, 247);
+} */
+
+.ipads-img,
+.airpods-img {
+  /* height: 53.4rem; */
+  width: 51.66rem;
+}
+
+.ipads-link:link,
+.ipads-link:visited,
+.airpods-link:visited,
+.airpods-link:link {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  font-size: 1.4rem;
+  align-self: center;
+  transition: all 0.3s;
+}
+
+.ipads-link:hover,
+.ipads-link:active,
+.airpods-link:hover,
+.airpods-link:active {
+  border-bottom: 1px solid currentColor;
+}
+
+.ipads-title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: rgb(245, 245, 247);
+}
+.airpods-title {
+  font-size: 4.8rem;
+  font-weight: 500;
+  color: rgb(29, 29, 31);
+}
+
+.ipads-subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(245, 245, 247);
+}
+
+.airpods-subtitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(29, 29, 31);
+}
+
+/* ************************************** */
+
+.section-belts {
+  background-color: rgb(245, 245, 247);
+}
+
+.div-belts,
+.container {
+  width: 120rem;
+  padding: 1.6rem 3.2rem;
+  margin: 0 auto;
+}
+
+.section-belts ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 120rem;
+}
+
+.belts {
+  font-size: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.section-footer {
+  background-color: rgb(245, 245, 247);
+  /* margin-bottom: 2.4rem; */
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-heading,
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(29, 29, 31);
+  transition: all 0.3s;
+  margin-bottom: 1rem;
+}
+
+.footer-heading {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.plus {
+  margin-top: 1rem;
+}
+
+.plus--2 {
+  margin-top: 3.2rem;
+}
+
+/* ************************************** */
+/* Sticky navigation */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(29, 29, 31, 0.88);
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.25);
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: rgb(245, 245, 247);
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
